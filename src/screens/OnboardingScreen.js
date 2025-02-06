@@ -9,13 +9,13 @@ const OnboardingScreen = ({ onComplete = () => { } }) => {
   const screens = [
     {
       image: require('../assets/images/onboarding1.png'), // Replace with your first screen's image
-      title: 'Services at Your Fingertips',
-      subtitle: 'Connecting you with skilled experts to make your life easier, anytime and anywhere.',
+      title: 'High-Quality & Trusted Brands',
+      subtitle: 'Explore a curated selection of premium products designed to enhance your lifestyle.',
     },
     {
       image: require('../assets/images/onboarding2.png'), // Replace with your second screen's image
-      title: 'Simplifying Your Daily Needs',
-      subtitle: 'Seamless access to trusted services, tailored to your needs and just a tap away.',
+      title: 'SExclusive Member Benefits',
+      subtitle: 'Get access to special discounts, rewards, and early product launches.',
     },
   ];
 

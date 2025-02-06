@@ -74,7 +74,7 @@ const ProfileScreen = () => {
     setIsDropdownOpen(!isDropdownOpen);
 
     Animated.timing(dropdownHeight, {
-      toValue: isDropdownOpen ? 0 : 150,
+      toValue: isDropdownOpen ? 0 : 100,
       duration: 300,
       useNativeDriver: false,
     }).start();
@@ -131,7 +131,7 @@ const ProfileScreen = () => {
             {[
               { label: 'Go to Dashboard', screen: 'Dashboard' },
               { label: 'My Orders', screen: 'MyOrder' },
-              { label: 'Genealogy Tree', screen: 'Binary' },
+              {/* { label: 'Genealogy Tree', screen: 'Binary' }, */}
 
             ].map((item, index) => (
               <TouchableOpacity

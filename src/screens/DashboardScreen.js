@@ -138,6 +138,7 @@ const styles = StyleSheet.create({
   },
   horizontalScrollView: {
     flex: 1,
+    
   },
   sliderContainer: {
     width: SCREEN_WIDTH,
@@ -153,7 +154,7 @@ const styles = StyleSheet.create({
   },
   verticalSlider: {
     width: '100%',
-    backgroundColor: '#e0e0e0',
+    backgroundColor: "#7fb2a8",
     borderRadius: 10,
     padding: 10,
     marginVertical: 10,
@@ -197,7 +198,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
   },
   activeIndicator: {
-    backgroundColor: '#6200EE',
+    backgroundColor: 'green',
   },
   loaderContainer: {
     flex: 1,

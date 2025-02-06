@@ -16,7 +16,7 @@ const App = () => {
     const initializeApp = async () => {
       try {
         // Check if onboarding has been completed
-        const seenOnboarding = await AsyncStorage.getItem('');
+        const seenOnboarding = await AsyncStorage.getItem('hasSeenOnboarding');
         setHasSeenOnboarding(seenOnboarding !== null); // true if onboarding has been seen
       } catch (error) {
         console.error('Error checking onboarding status:', error);

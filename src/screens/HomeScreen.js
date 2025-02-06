@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     overflow: 'hidden',
     alignItems: 'center',
-    elevation: 10,
+    elevation: 5,
   },
   productImage: {
     width: 110,
